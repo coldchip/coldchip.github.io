@@ -10,12 +10,16 @@
 		<br />
 		<br />
 		<br />
-		<img src="cat.gif" style="display: none; width: 300px;" id="cat" />
+
+		<div style="display: none;" id="hidden">
+			<img src="cat.gif" style="display: block; width: 300px;" />
+			<code style="display: block; font-size: 22px; margin-top: 10px;">We Live, We Love, We <b>Lie</b></code>
+		</div>
 
 		<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 		<script type="text/javascript">
 			function show() {
-				$("#cat").show();
+				$("#hidden").show();
 			}
 		</script>
 	</body>
